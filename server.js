@@ -1,5 +1,5 @@
-var express = require("express");
-var apiRoutes = require("./rputes/apiRoutes");
+// var express = require("express");
+// var apiRoutes = require("./routes/apiRoutes");
 var htmlRoutes = require("./routes/htmlRoutes");
 
 // ==============================================================================
@@ -22,8 +22,8 @@ app.use("/",htmlRoutes);
 
 
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+// require("./routes/apiRoutes")(app);
+// require("./routes/htmlRoutes")(app);
 
 
 app.listen(PORT, function() {
